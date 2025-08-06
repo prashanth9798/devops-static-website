@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevOps Static Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>DevOps Demo</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Welcome to My DevOps Journey</h2>
+                <p>This website demonstrates a complete CI/CD pipeline using GitHub Actions and Pages</p>
+                <button onclick="showAlert()">Click Me!</button>
+            </div>
+        </section>
+
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About This Project</h2>
+                <p>This static website showcases:</p>
+                <ul>
+                    <li>Automated deployment with GitHub Actions</li>
+                    <li>HTML/CSS validation</li>
+                    <li>Broken link checking</li>
+                    <li>Responsive design</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>DevOps Tools Used</h2>
+                <div class="tools-grid">
+                    <div class="tool-card">
+                        <h3>GitHub Actions</h3>
+                        <p>Continuous Integration/Deployment</p>
+                    </div>
+                    <div class="tool-card">
+                        <h3>GitHub Pages</h3>
+                        <p>Static website hosting</p>
+                    </div>
+                    <div class="tool-card">
+                        <h3>HTML Validator</h3>
+                        <p>Code quality assurance</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Pipeline Status</h2>
+                <p>Build Status: <span id="build-status">✅ Passing</span></p>
+                <p>Last Updated: <span id="last-updated"></span></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 DevOps Static Website Demo</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "devops-static-website",
+  "version": "1.0.0",
+  "description": "A static website with CI/CD pipeline demo",
+  "main": "index.html",
+  "scripts": {
+    "validate-html": "html-validate *.html",
+    "check-links": "markdown-link-check README.md || true",
+    "test": "node tests/test.js",
+    "serve": "python -m http.server 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git"
+  },
+  "keywords": ["devops", "ci-cd", "static-website", "github-actions"],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "html-validate": "^8.7.4",
+    "markdown-link-check": "^3.11.2"
+  }
+}
