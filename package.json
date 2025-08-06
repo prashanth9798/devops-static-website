@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git"
+    "url": "https://github.com/prashanth9798/devops-static-website.git"
   },
   "keywords": ["devops", "ci-cd", "static-website", "github-actions"],
   "author": "Your Name",
@@ -20,4 +20,5 @@
     "html-validate": "^8.7.4",
     "markdown-link-check": "^3.11.2"
   }
+
 }
