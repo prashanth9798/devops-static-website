@@ -14,7 +14,7 @@
     "url": "https://github.com/prashanth9798/devops-static-website.git"
   },
   "keywords": ["devops", "ci-cd", "static-website", "github-actions"],
-  "author": "Your Name",
+  "author": "Prashanth",
   "license": "MIT",
   "devDependencies": {
     "html-validate": "^8.7.4",
@@ -22,3 +22,4 @@
   }
 
 }
+
